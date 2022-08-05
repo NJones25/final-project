@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Kaisei+HarunoUmi:wght@400;500;700&family=Lexend+Tera:wght@200;300;500;600;800&family=Vibes&display=swap');
+
+/* Fonts
+
+font-family: 'Asset', cursive;
+font-family: 'Kaisei HarunoUmi', serif;
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Vibes', cursive;
+ */
+
+/* Colors
+    
+light tan #F0DEC0
+brown tan #705B38
+grey tan #BDAE97
+grey #70685A
+orange #F2C479
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.about-background {
+    width: 100%;
+    height: 100vh;
+    background-color: #E0D8CA;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container div {
+    flex: 1;
+ }
+.nav-info {
+    align-items: none;
+}
+.info {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 25px;
+    margin-top: -50px;
+    align-items: none;
+    color: #BDAE97;
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: 1px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    height: 120px;
+    width: auto;
+    margin-top: 10px;
+    padding: 0px 70px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: relative;  
+}
+
+.nav-list {
+    display: flex;
+    font-size: 27px;
+    list-style: none;
+}
+.nav-items {
+    display: flex;
+    padding-left: 10px;
+}
+
+.item {
+    color: #70685A;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.item:hover {
+    padding: 3px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #BDAE97;
+    color: #BDAE97;
+}
+
+#active {
+    box-shadow: 0px 2px 0px #BDAE97;
+    border-radius: 10px;
+}
+
+section {
+    min-height: 86vh;
+    width: 85%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #E0D8CA;
+    padding-top: 50px;
+}
+
+.about-container {
+    width: 100%;
+    max-width: 1000px;
+    max-width: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.about-left {
+    width: 70%;
+    height: 550px;
+    background: url(/imgs/Music3.JPG) no-repeat center / cover;
+    border-radius: 8px;
+}
+ .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Kaisei HarunoUmi', serif;
+ }
+
+.about-right {
+    width: 70%;
+    min-height: 450px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #70685A;
+    margin-left: -100px;
+    margin-bottom: -400px;
+}
+
+.about-right h1 {
+    font: 40px;
+    font-weight: lighter;
+}
+.about-right p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+    width: 90%;
+}
+
+.about-right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #70685A;
+    color: #E0D8CA;
+    padding: 5px 10px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.about-mediaplayer {
+    position: absolute;
+    bottom: 110px;
+    left: 295px;
+}
+
+/* footer */
+
+
+footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    margin-bottom: -200px;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    height: 135px;
+    justify-content: space-between;
+    align-items: center;
+    color: #E0D8CA;
+    background: #000000;
+    padding-left: 30px;
+}
+
+.footer-right {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    background-color: #000000;
+    color: #E0D8CA;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-icon-list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.footer-icon-list i {
+    padding: 0px 20px;
+    color: #E0D8CA;
+}
+
+.footer-bottom {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    bottom: 0px;
+    background: #E0D8CA;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    color: #E0D8CA;
+}
+
+.mail-color {
+    color: #E0D8CA;
+}
+
+.footer-info div {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-info span {
+    display: flex;
+    justify-content: center;
+}

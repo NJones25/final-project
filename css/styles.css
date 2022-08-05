@@ -2,12 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Asset&family=Kaisei+HarunoUmi:wght@400;500;700&family=Lexend+Tera:wght@200;300;500;600;800&family=Vibes&display=swap');
 
+/* Fonts
 
+font-family: 'Asset', cursive;
+font-family: 'Kaisei HarunoUmi', serif;
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Vibes', cursive;
+ */
+
+/* Colors
+    
+light tan #F0DEC0
+brown tan #705B38
+grey tan #BDAE97
+grey #70685A
+orange #F2C479
+ */
+
+ /* index */
+
+ 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 body {
     width: 100%;
@@ -16,7 +34,6 @@ body {
 }
 
 .background {
-    /* display: flex; */
     width: 100%;
     height: 100vh;
     background: linear-gradient(135deg, #E0D8CA 78%,#000000 50%, #000000 80%, #E0D8CA 60%);
@@ -30,7 +47,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* z-index: 1; */
 }
 .nav-container div {
     flex: 1;
@@ -123,7 +139,6 @@ body {
     text-align: center;
     margin-left: 57.4px;
     border-left: 2px solid #705B38;
-    /* border-right: 2px solid #705B38; */
 }
 
 .hero-info h1 {
@@ -136,7 +151,6 @@ body {
     font-size: 17px;
     font-weight: 200;
     padding-top: 30px;
-    /* text-transform: uppercase; */
     line-height: 30px;
     padding-bottom: 100px;
     
@@ -147,7 +161,6 @@ body {
     height: 550px;
     width: 982.6px;
     float: left;
-    /* border: 2px solid black; */
     border-right: 2px solid #705B38;
     padding-right: 400px;
 
@@ -161,7 +174,6 @@ body {
     align-items: center;
     float: left;
     font-size: 83px;
-    /* border: 2px solid black; */
     margin-top: 100px;
 }
 
@@ -174,7 +186,6 @@ body {
     float: left;
     font-size: 108px;
     padding-left: 20px;
-    /* border: 2px solid black; */
     margin-top: 100px;
 }
 
@@ -188,7 +199,6 @@ body {
     clear: left;
     font-size: 51px;
     padding-top: 20px;
-    /* border: 2px solid black; */
 }
 
 .main-container4 {
@@ -200,7 +210,6 @@ body {
     float: left;
     padding-top: 20px;
     padding-left: 20px;
-    /* border: 2px solid black; */
 }
 
 .main-container1,
@@ -214,28 +223,25 @@ body {
     width: 125px;
     height: 175px;
     color: #FFFFFF;
-    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Fashion.jpg);
-    background-size: cover; */
 }
 .left-main#pic2 {
     width: 125px;
     height: 175px;
     color: #FFFFFF;
-    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Music1.jpg); */
     background-size: cover;
 }
 .left-main#pic3 {
     width: 125px;
     height: 175px;
     color: #FFFFFF;
-    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Photography.JPG); */
+    
     background-size: contain;
 }
 .left-main#pic4 {
     width: 125px;
     height: 175px;
     color: #FFFFFF;
-    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/static-gif-2.gif); */
+    
 }
 .main-container1,
 .main-container2,
@@ -247,7 +253,6 @@ body {
 
 
 .right-main {
-    /* border: 1px black solid; */
     width: 325px;
     height: 200px;
     margin-left: -100px;
@@ -418,9 +423,9 @@ audio {
     100% {
         transform: translateY(-100%) rotate(520deg);
     }
-}git pull
+}
 
-/* footer */
+/* index footer */
 
 
 footer {
