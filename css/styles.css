@@ -99,3 +99,178 @@ body {
     box-shadow: 0px 2px 0px #BDAE97;
     border-radius: 10px;
 }
+
+.container-items {
+	position: absolute;
+	bottom: 0;
+	width: 82%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	cursor: pointer;
+    padding-right: 200px;
+
+}
+
+.hero-info {
+    height: 550px;
+    width: 30%;
+    display: flex;
+    float: left;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 57.4px;
+    border-left: 2px solid #705B38;
+    /* border-right: 2px solid #705B38; */
+}
+
+.hero-info h1 {
+    font-family: 'Asset', cursive;
+    padding-top: 100px;
+    width: 65%;
+}
+.hero-info p {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 17px;
+    font-weight: 200;
+    padding-top: 30px;
+    /* text-transform: uppercase; */
+    line-height: 30px;
+    padding-bottom: 100px;
+    
+}
+
+
+.hero-main {
+    height: 550px;
+    width: 982.6px;
+    float: left;
+    /* border: 2px solid black; */
+    border-right: 2px solid #705B38;
+    padding-right: 400px;
+
+}
+ 
+.main-container1 {
+    height: 175px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 83px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+
+.main-container2 {
+    height: 175px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: 108px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+
+.main-container3 {
+    height: 175px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    clear: left;
+    font-size: 51px;
+    padding-top: 20px;
+    /* border: 2px solid black; */
+}
+
+.main-container4 {
+    height: 175px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* border: 2px solid black; */
+}
+
+.main-container1,
+.main-container2,
+.main-container3,
+.main-container4, .left-main {
+    width: 50%;
+}
+
+.left-main#pic1 {
+    width: 125px;
+    height: 175px;
+    color: #FFFFFF;
+    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Fashion.jpg);
+    background-size: cover; */
+}
+.left-main#pic2 {
+    width: 125px;
+    height: 175px;
+    color: #FFFFFF;
+    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Music1.jpg); */
+    background-size: cover;
+}
+.left-main#pic3 {
+    width: 125px;
+    height: 175px;
+    color: #FFFFFF;
+    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/Photography.JPG); */
+    background-size: contain;
+}
+.left-main#pic4 {
+    width: 125px;
+    height: 175px;
+    color: #FFFFFF;
+    /* background: linear-gradient(270deg, rgba(50,50,50,0.6) 0%, rgba(215,215,215,0.6) 100%), url(/imgs/static-gif-2.gif); */
+}
+.main-container1,
+.main-container2,
+.main-container3,
+.main-container4, .right-main {
+    width: 50%;
+}
+
+
+
+.right-main {
+    /* border: 1px black solid; */
+    width: 325px;
+    height: 200px;
+    margin-left: -100px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.right-main .title1 {
+    width: 200px;
+    font-weight: 100;
+}
+.right-main .title2 {
+    width: 200px;
+}
+.right-main .title3 {
+    width: 200px;
+}
+.right-main .title4 {
+    width: 200px;
+    background-image: url(/imgs/アニメ.svg);
+    background-size: cover;
+}
