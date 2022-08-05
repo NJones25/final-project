@@ -1,7 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Kaisei+HarunoUmi:wght@400;500;700&family=Lexend+Tera:wght@200;300;500;600;800&family=Vibes&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Merriweather', serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.background {
+    /* display: flex; */
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #E0D8CA 78%,#000000 50%, #000000 80%, #E0D8CA 60%);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.nav-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+}
+.nav-container div {
+    flex: 1;
+ }
+.nav-info {
+    align-items: none;
+}
+.info {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 25px;
+    margin-top: -50px;
+    align-items: none;
+    color: #BDAE97;
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: 1px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    margin-top: 10px;
+    padding: 0px 70px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: relative;  
+}
+
+.nav-list {
+    display: flex;
+    font-size: 27px;
+}
+.items {
+    display: flex;
+    padding-left: 10px;
+}
+
+.item {
+    color: #70685A;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.item:hover {
+    padding: 3px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #BDAE97;
+    color: #BDAE97;
+}
+
+#active {
+    box-shadow: 0px 2px 0px #BDAE97;
+    border-radius: 10px;
 }
