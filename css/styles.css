@@ -381,6 +381,11 @@ audio {
     border-radius: 5px;
 }
 
+:root {
+    --background: #E0D8CA;
+    --dark: #000000;
+}
+
 .box {
     position: relative;
     background-color: var(--dark);
